@@ -10,6 +10,8 @@
 
 </div>
 
+<p align="center"><img src="assets/flow.svg" alt="The redesign-director flow: Orient → Map → Foundations → Mockups → States → Evidence → Revise → ADRs → Iterate" width="100%"></p>
+
 ---
 
 Most "redesigns" are a pile of taste-based UI tweaks. This one is a **method**: it grounds
