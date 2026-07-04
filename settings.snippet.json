@@ -1,0 +1,16 @@
+{
+  "//": "Merge this into ~/.claude/settings.json (all projects) or a project's .claude/settings.json. It makes the deep-research workflow ask for confirmation before running (it is token-heavy). For a project-scoped install, use \"$CLAUDE_PROJECT_DIR/.claude/hooks/deep-research-cost-guard.sh\" instead.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Workflow",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/hooks/deep-research-cost-guard.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
